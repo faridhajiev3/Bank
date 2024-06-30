@@ -1,0 +1,105 @@
+.sponsor {
+    width: 635px;
+    height: 90px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    font-family: "Inter", sans-serif;
+    margin: 10px 0;
+}
+
+.apple2 {
+    width: 60px;
+    height: 60px;
+    background-color: #DCFAF8;
+    color: #16DBCC;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.appleStore {
+    font-weight: 500;
+    font-size: 16px;
+    color: #232323;
+    line-height: 2;
+}
+
+.return {
+    font-weight: 400;
+    font-size: 15px;
+    color: #718EBF;
+    /* line-height: 1.4; */
+}
+
+.app {
+    font-weight: 500;
+    font-size: 16px;
+    color: #232323;
+    line-height: 2;
+}
+
+.ret {
+    font-weight: 400;
+    font-size: 15px;
+    color: #718EBF;
+}
+
+.per {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2;
+}
+
+@media (max-width:1000px) {
+    .sponsor {
+        width: 400px;
+        height: 69px;
+    }
+
+    .appleStore {
+        font-size: 12px;
+    }
+
+    .return {
+        font-size: 11px;
+    }
+
+    .app {
+        font-size: 12px;
+    }
+
+    .ret {
+        font-size: 11px;
+    }
+
+    .per {
+        font-size: 12px;
+    }
+
+    .apple2 {
+        width: 42px;
+        height: 42px;
+        border-radius: 15px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width:400px) {
+    .sponsor {
+        width: 235px;
+        height: 69px;
+    }
+
+    .appleStore {
+        display: none;
+    }
+
+    .return {
+        display: none;
+    }
+}

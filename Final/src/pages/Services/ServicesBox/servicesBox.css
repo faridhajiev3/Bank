@@ -1,0 +1,59 @@
+.in {
+    display: flex;
+    width: 350px;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    gap: 20px;
+}
+
+.im {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: #E7EDFF;
+    color: #396AFF;
+
+}
+
+.myBalan{
+    font-weight: 600;
+    font-size: 20px;
+    color: #232323;
+    line-height: 2;
+}
+
+.num {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #718EBF;
+}
+@media (max-width:1000px){
+    .in{
+        width: 230px;
+        height: 90px;
+    }
+    .im{
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        font-size: 18px;
+    }
+    .myBalan{
+        font-size: 15px;
+    }
+    .num{
+        font-size: 11px;
+    }
+}
+@media (max-width:400px){
+    
+}

@@ -1,0 +1,59 @@
+
+.info{
+    display: flex; 
+    width: 255px;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    gap: 20px;
+}
+.important1{
+    width: 70px;
+    height: 70px; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px; 
+
+}
+.myBalance{
+    font-weight: 400;
+    font-size: 16px;
+    color: #718EBF;
+    line-height: 2;
+}
+.number{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.2;
+    color: #232323;
+}
+@media (max-width:1000px) {
+    .info{
+        width: 167px;
+        height: 90px;
+    }
+    .important1{
+        font-size: 24px;
+    }
+    .myBalance{
+        font-size: 11px;
+    }
+    .number{
+        font-size: 15px;
+    }
+}
+@media (max-width:400px){
+    .info{
+        width: 300px;
+        height: 85px;
+        gap: 20px;
+    }
+    .da{
+        padding-top: 20px;
+    }
+}

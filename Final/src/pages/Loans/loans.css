@@ -1,0 +1,95 @@
+.loansInfo {
+    width: 1150px;
+    /* max-height: 625px; */
+    background-color: #fff;
+    border-radius: 25px;
+    font-family: "Inter", sans-serif;
+    min-width: 88%;
+    padding: 30px 20px;
+}
+
+.activeLoans {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    color: #1814F3;
+    border: solid 2px #1814F3;
+    border-radius: 50px;
+    padding: 7px 0;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #1814F3;
+
+}
+
+.pomni {
+    text-align: center;
+    color: #343C6A;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26.63px;
+    font-family: "Inter", sans-serif;
+    padding: 16px 0;
+}
+
+.loansTd {
+    width: 14%;
+    text-align: center;
+}
+
+.r-d {
+    color: #FE5C73;
+}
+
+.f {
+    display: none;
+}
+
+@media (max-width:1000px) {
+    .important1 {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        font-size: 18px;
+    }
+
+    .myBalance {
+        font-size: 11px;
+    }
+
+    .number {
+        font-size: 15px;
+    }
+
+    .loansTd {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:400px) {
+    .da {
+        flex-direction: column;
+    }
+
+    .loansInfo {
+        display: none;
+    }
+
+    .f {
+        display: flex;
+    }
+
+    .infoLoans {
+        width: 325px;
+        height: 466px;
+        background: #fff;
+    }
+    .btn{
+        padding: 8px 56px 8px 24px;
+    }
+}

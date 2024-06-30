@@ -1,0 +1,46 @@
+/* .switch-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+} */
+
+.switch-background {
+    width: 50px;
+    height: 30px;
+    background-color: #e5e5e5;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.switch-on {
+    background-color: #16DBCC;
+}
+
+.switch-off {
+    background-color: #DFEAF2;
+}
+
+.switch-knob {
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+    position: absolute;
+}
+
+.knob-on {
+    transform: translateX(20px);
+}
+
+.knob-off {
+    transform: translateX(0px);
+}

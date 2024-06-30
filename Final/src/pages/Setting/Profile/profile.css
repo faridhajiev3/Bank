@@ -1,0 +1,72 @@
+.sunny{
+    width: 1110px;
+    height: 531px;
+    background: #fff;
+}
+.edit {
+    display: flex;
+    /* justify-content: space-evenly; */
+    padding: 0 0 0 20px;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    /* overflow: hidden; */
+    border: solid 1px #da2323;
+    border-radius: 50%;
+    margin: 20px 40px 0 0;
+}
+
+.lenovo {
+    display: flex;
+    justify-content: space-around; 
+    gap: 80px;
+}
+
+.cardType {
+    /* padding: 12px 205px 12px 46px; */
+    padding: 12px 170px 12px 40px;
+    font-size: 15px;
+    /* margin: 20px 0 0 0; */
+    border-radius: 15px;
+    border: 2px solid #dfeaf2;
+    outline-color: #dfeaf2;
+}
+
+.u {
+    padding: 14px 76px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #1814F3;
+    outline: none;
+    border: none;
+}
+
+.j {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 60px 0 0;
+}
+/* @media (max-width: 1000px){
+    .cardType{
+        padding: 12px 100px 12px 30px;
+    }
+} */
+@media (max-width: 400px){
+    .sunny{
+        width: 1110px;
+        height: 531px;
+        background: #fff;
+    }
+    .edit{
+        flex-direction: column;
+    }
+    .lenovo{
+        flex-direction: column; 
+    }
+    .sad{
+        display: flex;
+        flex-direction: column;
+    }
+}

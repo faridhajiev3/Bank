@@ -1,0 +1,87 @@
+.bankList{
+    width: 86%;
+    height: 90px;
+    background-color: #fff;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0;
+    font-family: "Inter", sans-serif;
+}
+.miniBank{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.life{
+    font-size: 22px;
+    width: 60px;
+    height: 60px;
+    background-color: #FFE0EB;
+    color: #FF82AC;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.darkk{
+    font-weight: 500;
+    font-size: 16px;
+    color: #232323;
+    line-height: 2;
+}
+.grayy{
+    font-weight: 400;
+    font-size: 15px;
+    color: #718EBF;
+}
+.dark{
+    font-weight: 500;
+    font-size: 16px;
+    color: #232323;
+    line-height: 2;
+}
+.gray{
+    font-weight: 400;
+    font-size: 15px;
+    color: #718EBF;
+}
+.btnDetails{
+    color: #718EBF;
+    padding: 8px 20px;
+    border-color: #718EBF;
+    background-color: #fff;
+    font-size: 15px;
+    border-radius: 20px;
+}
+@media (max-width:1000px){
+    .bankList{
+        width: 740px;
+        height: 69px;
+    }
+    .dark{
+        font-size: 12px;
+    }
+    .gray{
+        font-size: 11px;
+    }
+}
+@media (max-width:400px){
+    .dark,.gray{
+        display: none;
+    }
+    .bankList{
+        width: 325px;
+        height: 69px;
+    }
+    .darkk{
+        font-size: 14px;
+    }
+    .grayy{
+        font-size: 12px;
+    }
+    .btnDetails{
+        padding: 6px 8px 6px 8px;
+    }
+}

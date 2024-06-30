@@ -1,0 +1,75 @@
+.credit {
+    display: flex;
+    justify-content: space-evenly;
+}
+.ponni {
+    color: #343C6A;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26.63px;
+    font-family: "Inter", sans-serif;
+    margin: 16px 0 16px 60px;
+}
+.doughnut{
+    width: 350px;
+    height: 357px; 
+    background-color: #fff;
+}
+.mediumList{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+}
+.hardList{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.setting{
+    width: 350px;
+    height: 440px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    border-radius: 25px;
+}
+.setting>div{
+    width: 100%;
+}
+@media (max-width: 1000px){
+    .doughnut{
+        width: 231px;
+        height: 231px;
+    }
+    .setting{
+        width: 231px;
+        height: 321px;
+    }
+}
+@media (max-width: 400px){
+    .credit{
+        flex-direction: column;
+    }
+    .mediumList{
+        flex-direction: column;
+    }
+    .hardList{
+        flex-direction: column;
+    }
+    .doughnut{
+        width: 325px;
+        height: 300px;
+    }
+    .setting{
+        width: 325px;
+        height: 325px;
+        margin: 30px 0 0 0;
+    }
+}

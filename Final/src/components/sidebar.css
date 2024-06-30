@@ -1,0 +1,69 @@
+.container {
+    display: flex;
+}
+
+main {
+    width: 100%;
+    /* padding: 20px; */
+}
+
+.sidebar {
+    background: #fff;
+    color: #343C6A;
+    /* height: 100vh; */
+    width: 250px;
+    transition: all 0.5s;
+}
+
+.top_section {
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 31.95px;
+    font-family: "Montserrat", sans-serif;
+    color: #343C6A;
+}
+
+.bars {
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.link {
+    display: flex;
+    color: #B1B1B1;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+    /* width: 90%; */
+}
+
+.link:hover {
+    /* background: lightskyblue; */
+    /* color: #000; */
+    color: #2D60FF;
+    transition: all 0.5s;
+}
+
+.active {
+    color: #2D60FF!important;
+    /* color: #000; */
+}
+
+.icon,
+.link_text {
+    font-size: 21px;
+}
+
+/* navbar */
+@media (max-width: 1000px){
+    .sidebar{
+        width: 200px;
+    }
+}

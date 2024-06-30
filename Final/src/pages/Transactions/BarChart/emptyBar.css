@@ -1,0 +1,28 @@
+.empt_y {
+    height: 235px;
+    width: 350px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    align-items: center;
+}
+
+@media (max-width: 1000px) {
+    .empt_y {
+        width: 231px;
+        height: 170px;
+    }
+}
+
+@media (max-width: 400px) {
+    .empt_y {
+        height: 235px;
+        width: 350px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        border-radius: 25px;
+        align-items: center;
+    }
+}

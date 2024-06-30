@@ -1,0 +1,59 @@
+.cardList {
+    width: 730px;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    margin: 12px 0;
+    background-color: #fff;
+    font-family: "Inter", sans-serif;
+}
+
+.go {
+    width: 60px;
+    height: 60px;
+    background-color: #E7EDFF;
+    color: #396AFF;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.view{
+    font-size: 15px;
+    color: #1814F3;
+}
+.bananaStore{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2;
+}
+@media (max-width: 1000px){
+    .cardList{
+        width: 487px;
+        height: 69px;
+    }
+    .bananaStore{
+        font-size: 12px;
+    }
+    .return{
+        font-size: 12px;
+    }
+    .go{
+        width: 45px;
+        height: 45px;
+        border-radius: 15px;
+        font-size: 18px;
+    }
+}
+@media (max-width: 400px){
+    .bare{
+        display: none;
+    }
+    .cardList{
+        width: 325px;
+        height: 69px;
+    }
+}

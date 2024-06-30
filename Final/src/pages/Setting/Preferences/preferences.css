@@ -1,0 +1,32 @@
+
+.passo {
+    padding: 12px 245px 12px 50px;
+    font-size: 15px;
+    margin: 20px 0 0 0;
+    border-radius: 15px;
+    border: 1px solid #dfeaf2;
+    outline-color: #dfeaf2;
+}
+.lineWest{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+.digita{
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+    align-items: center;
+    padding: 0 0 0 20px;
+}
+.not{
+    font-weight: 500;
+    font-size: 17px;
+    color: #333B69;
+    padding: 30px 0 20px 20px;
+}
+.receive{
+    font-weight: 400;
+    font-size: 16px;
+    color: #232323;
+}
